@@ -1,5 +1,5 @@
 .MenuCabecera{
-   background-color: #BE1622;
+   background-color:#AADAE6;;
    width: 100%;
 }
 *{
@@ -7,9 +7,12 @@
     padding: 0%;
 }
 .banner{
-    background-color: #1d70b8;
+    background-image: url(../imagenes/teacher-correcting-mistakes-pupil-s-notebook.jpg);
     width: 100%;
-    height: 120px;
+    height: 1500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: center;
 }
 .cajacolumnas{
     display: flex;
@@ -25,15 +28,43 @@
 }
 .colorverde{
     background-color: green;
+    height: 150px;
 }
 .colornaranja{
     background-color: orange;
+    height: 150px;
 }
 .colorturquesa{
     background-color: turquoise;
+    height: 150px;
 }
 .random{
     background-color: aqua;
     width: 100%;
     height: 120px;
+}
+.Menusuperior li{
+    display: inline;
+    padding: 5px;
+    border-right: solid 2px black;
+}
+.Menusuperior{
+text-transform: uppercase;
+font-weight: bold;
+text-align: right;
+padding: 20px;
+
+}
+li a:hover {
+    color: #e2430c;
+    background-color: #02506e;
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+    
+}
+.Menusuperior li:last-child{
+    border-right: none;
+
 }
