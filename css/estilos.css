@@ -28,15 +28,15 @@
 }
 .colorverde{
     background-color: green;
-    height: 150px;
+    height: 190px;
 }
 .colornaranja{
     background-color: orange;
-    height: 150px;
+    height: 190px;
 }
 .colorturquesa{
     background-color: turquoise;
-    height: 150px;
+    height: 190px;
 }
 .random{
     background-color: aqua;
@@ -67,4 +67,24 @@ li a{
 .Menusuperior li:last-child{
     border-right: none;
 
+}
+.cajacolumnas img{
+    width: 100%;
+    height: 300px;
+}
+.formulario{
+    width: 80%;
+    margin: auto;
+}
+form{
+    padding: 15px;
+}
+input{
+    width: 100px;
+    padding:5px;
+    border-radius: 15px;
+}
+textarea{
+    width: 100%;
+    height: 120px;
 }
