@@ -46,8 +46,12 @@
 .Menusuperior li{
     display: inline;
     padding: 5px;
+    
+}
+.borderderecho li{
     border-right: solid 2px black;
 }
+
 .Menusuperior{
 text-transform: uppercase;
 font-weight: bold;
